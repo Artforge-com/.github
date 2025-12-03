@@ -246,3 +246,4 @@ Docker containers include Java 17, so no local installation needed.
 
 **Still having issues?** Check the troubleshooting section or verify your installation path.
 
+

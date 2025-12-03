@@ -97,3 +97,4 @@ Stops all ArtForge services by closing their windows.
 
 **Ready to start?** Begin with [SETUP.md](SETUP.md)!
 
+

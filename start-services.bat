@@ -83,7 +83,10 @@ echo Prerequisites check passed!
 echo.
 
 REM Get the script directory (parent of .github)
-set SCRIPT_DIR=%~dp0..
+pushd "%~dp0"
+set SCRIPT_DIR=%CD%
+popd
+
 cd /d "%SCRIPT_DIR%"
 
 echo Starting services in separate windows...
